@@ -1,0 +1,39 @@
+//(c) A+ Computer Science
+//www.apluscompsci.com
+//Name -
+
+import static java.lang.System.*;
+
+public class Social
+{
+   private String socialNum;
+
+	public Social()
+	{
+	}
+
+	public Social(String soc)
+	{
+	}
+
+	public void setSocial(String soc)
+	{
+	}
+
+	public int getSum()
+	{
+
+
+
+
+
+
+
+		return 0;
+	}
+
+	public String toString()
+	{
+		return "";
+	}
+}

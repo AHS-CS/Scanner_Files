@@ -5,53 +5,46 @@
 import java.util.Scanner;
 import static java.lang.System.*;
 
-public class Average
-{
-   private String line;
+public class Average {
+    private String line;
 
-   public Average()
-   {
-   }
+    public Average() {
+        setLine("");
+    }
 
-   public Average(String s)
-   {
-   }
+    public Average(String s) {
+        setLine(s);
+    }
 
-	public void setLine(String s)
-	{
-	}
+    public void setLine(String s) {
+        line = s;
+    }
 
-	public int getCount()
-	{
-		int count=0;		
-		return count;
-	}
+    public int getCount() {
 
+        // Setup Scanner to get the count
+        int count = 0;
+        return count;
+    }
 
-	public int getSum()
-	{
-		int sum=0;
+    public int getSum() {
+        // Setup Scanner to get the count
+        int sum = 0;
 
+        return sum;
+    }
 
-	
-		return sum;
-	}
+    public double getAverage() {
+        double average = 0.0;
 
-	public double getAverage()
-	{
-		double average=0.0;
+        return average;
+    }
 
+    public String getLine() {
+        return "";
+    }
 
-		return average;
-	}
-
-	public String getLine()
-	{
-		return "";
-	}
-
-	public String toString()
-	{
-		return "";
-	}
+    public String toString() {
+        return "";
+    }
 }
